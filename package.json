@@ -1,5 +1,5 @@
 {
-  "name": "quickstart-react-express",
+  "name": "react-express-base",
   "version": "0.1.0",
   "description": "A default project with React frontend and Express backend.",
   "main": "index.js",
