@@ -4,7 +4,8 @@
   "description": "A default project with React frontend and Express backend.",
   "main": "index.js",
   "scripts": {
-    "start-dev": "concurrently \"cd server && yarn start-dev\" \"cd client && yarn start\""
+    "start-dev": "concurrently \"cd server && yarn start-dev\" \"cd client && yarn start\"",
+    "setup": "concurrently \"cd server && yarn\" \"cd client && yarn\""
   },
   "repository": "https://goulash32@bitbucket.org/goulash32/taskmaster.git",
   "author": "Hunter Mueller <mueller.hunter@gmail.com>",
